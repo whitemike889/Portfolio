@@ -1,0 +1,270 @@
+h1, h2, h3{
+	text-align: center;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.navbar{
+	background-color: transparent;
+	font-weight: 700;
+	border-style: none;
+	width: 100vw;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 25px;
+	color: #16F7FB;                  /*Blue*/
+}
+
+.nav .navbar-nav {
+	margin-right: 1vw;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	color: #16F7FB !important;
+}
+
+.nav > li.active > a {
+  	background: #6EF63E !important;  /*Green*/
+	color: #000 !important;
+}
+
+.firstBckgrnd {
+	background-image: url(Images/mainBackground.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.backgrndElemnts{
+	padding-right: 25px;
+	color: #6EF63E;
+	text-align: center;
+	font-family: "Alegreya Sans SC";
+}
+
+.backgrndElemnts > h1{
+	margin: 22vh 0 0 0;
+	font-weight: 900;
+	font-size: 80px;
+	color: #16F7FB;
+	text-shadow: 0px 0px 5px white;
+}
+
+.backgrndElemnts > h2 {
+	margin-top: 5px;
+	font-family: sans-serif;
+	text-shadow: 0px 0px 10px white;
+}
+
+.infoIcons .fa {
+	margin-top: 25px;
+	color: #16F7FB;
+}
+
+.bullElements{
+	font-size: 40px;
+}
+
+.aboutPromiseBckgrdn{
+	background-color: #484D4D;
+	background-size: cover;
+	background-position: center;
+	height: 100vh
+	width: 100vw;
+	padding-bottom: 130px;
+}
+
+.about{
+	color: #80FCFB;
+	text-shadow: 0px 0px 5px black;
+	font-size: 23px;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+
+.about > .row > h2 {
+	font-size: 50px;
+}
+
+.about > .row > div > p {
+	margin-top: 20px;
+	text-align: justify; 
+}
+
+.aboutImg {
+	background-image: url(Images/profilePic.jpg);
+	background-size: cover;
+	width: 290px;
+	height: 250px;
+	border-radius: 20px 20px 20px 20px;
+	margin-top: -40px;
+}
+
+.promiseBlock {
+	color: #80FCFB;
+	text-shadow: 2px 2px 10px black;
+	margin-top: 50px;
+	margin-bottom: -50px;
+}
+
+.promisePics {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.promiseFormat {
+	background-size: cover;
+	background-position: center;
+	height: 280px;
+	width: 370px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#precisionPlanning {
+	background-image: url(Images/precision.jpg);
+}
+
+#respWeb{
+	background-image: url(Images/responsiveDesign.jpg);
+}
+
+#cleanCode{
+	background-image: url(Images/cleanCode.jpg);
+}
+
+.portFolioBckgrnd{
+	background-image: url(Images/officePic.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 1300px;
+}
+
+.portFolio{
+	padding-top: 100px;
+}
+
+.portFolio > .row > h2{
+	color: #16F7FB;
+	text-shadow: 0px 0px 10px black;
+}
+
+.portfolioBlockDiv{
+	padding-top: 50px;
+}
+
+.portfolioBlocks{
+	height: 280px;
+	width: 370px;
+	background-image: url(Images/placeholders.jpg);
+	opacity: .85;
+}
+
+.portfolioText{
+	display: block;
+	margin-top: -1px;
+	padding-top: 5px;
+	height: 50px;
+	width: 370px;
+	color: #6EF63E;
+	font-weight: 600;
+}
+
+#emailBtn{
+	margin-top: 160px;
+}
+
+.emailMe{
+	color: black;
+	background-color: #16F7FB;
+	border-color: transparent;
+}
+
+#emailInfo{
+	color: white;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+button.emailMe:hover,
+button.emailMe:focus {
+	background-color: #16F7FB;
+	border-color: transparent;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.aboutImg{
+		width: 260px;
+		height: 230px;
+	}
+
+	.portfolioBlocks{
+		height: 300px;
+		width: 300px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.aboutImg{
+		width: 180px;
+		height: 170px;
+		margin-top: 20px;
+	}
+
+	.promiseBlock{
+		width: auto;
+	}
+
+	.portFolioBckgrnd{
+		background-position: none;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.backgrndElemnts > h1 {
+		font-size: 40px;
+	}
+
+	.navbar-default .navbar-brand{
+		font-size: 20px;
+	}
+
+	.aboutImg{
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 230px;
+		height: 210px;
+	}
+
+	.promiseFormat {
+		width: 250px;
+		height: 200px;
+	}
+
+	.portFolioBckgrnd{
+		background-position: none;
+		height: auto;
+	}
+
+	.portfolioText {
+		width: auto;
+	}
+
+	.portfolioBlocks{
+		height: 250px;
+		width: 290px
+	}
+
+	#emailInfo{
+	padding-bottom: 60px;
+	}
+}
