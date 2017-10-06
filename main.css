@@ -35,7 +35,8 @@ body{
 }
 
 .firstBckgrnd {
-	background-image: url(Images/mainBackground.jpg);
+	/*background-image: url(Images/mainBackground.jpg);*/
+	background-image: url(http://u.cubeupload.com/fullmetal7777/mainBackground.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -99,7 +100,8 @@ body{
 }
 
 .aboutImg {
-	background-image: url(Images/profilePic.jpg);
+	/*background-image: url(Images/profilePic.jpg);*/
+	background-image: url(http://u.cubeupload.com/fullmetal7777/profilePic.jpg);
 	background-size: cover;
 	width: 290px;
 	height: 250px;
@@ -129,19 +131,23 @@ body{
 }
 
 #precisionPlanning {
-	background-image: url(Images/precision.jpg);
+	/*background-image: url(Images/precision.jpg);*/
+	background-image: url(http://u.cubeupload.com/fullmetal7777/precision.jpg);
 }
 
 #respWeb{
-	background-image: url(Images/responsiveDesign.jpg);
+	/*background-image: url(Images/responsiveDesign.jpg);*/
+	background-image: url(http://u.cubeupload.com/fullmetal7777/responsiveDesign.jpg);
 }
 
 #cleanCode{
-	background-image: url(Images/cleanCode.jpg);
+	/*background-image: url(Images/cleanCode.jpg);*/
+	background-image: url(http://u.cubeupload.com/fullmetal7777/cleanCode.jpg);
 }
 
 .portFolioBckgrnd{
-	background-image: url(Images/officePic.jpg);
+	/*background-image: url(Images/officePic.jpg);*/
+	background-image: url(http://u.cubeupload.com/fullmetal7777/officePic.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 1300px;
@@ -163,7 +169,8 @@ body{
 .portfolioBlocks{
 	height: 280px;
 	width: 370px;
-	background-image: url(Images/placeholders.jpg);
+	/*background-image: url(Images/placeholders.jpg);*/
+	background-image: url(http://u.cubeupload.com/fullmetal7777/placeholders.jpg);
 	opacity: .85;
 }
 
